@@ -58,11 +58,7 @@ body {
 
 .page-header{
      border-bottom: 1px solid #ECECEC;
-     width: 1600px;
-     padding-top: 24px;
-     padding-bottom: 25px;
-     margin-left: auto;
-     margin-right: auto;
+     
 }
 .header-container{
      display: flex;
@@ -89,9 +85,7 @@ body {
      .menu-item:not(:last-child){
           margin-right: 50px;
      }
-     .mailto{
-          margin-right: 50px;
-     }
+     
 
 /*header*/
 .logo {
@@ -128,11 +122,15 @@ body {
 .menu-link:focus {
      color: var(--accent-color);
 }
+.menu-mailto{
+margin-right: 50px;
+}
 
 .mailto {
      padding-top: 32px;
      padding-bottom: 32px;
-     margin-right: 50px;
+     align-items: center;
+     display: flex;
      font-family: 'Roboto', sans-serif;
      font-weight: 500;
      font-size: 14px;
@@ -142,21 +140,18 @@ body {
 }
 
 
-.mailto:hover,
+.mailto:hover ,
 .mailto:focus {
      color: var(--accent-color);
 }
-.envelope:hover ,
-.envelope:focus {
-     fill: var(--accent-color);
-}
+
 .current {
      color: var(--accent-color);
 }
 
 .envelope {
-     fill: var(--secondari-color);
-     margin-right: 10px;
+fill: currentColor;
+margin-right: 10px;
 }
 
 
@@ -176,7 +171,7 @@ body {
      height: 600px;
      margin-left: auto;
      margin-right: auto;
-     background-position: absolute;
+     background-position:center;
      background-repeat: no-repeat;
 }
 
@@ -334,7 +329,7 @@ body {
 
 
 .team-name {
-     padding-bottom: 10px;
+     margin-bottom: 10px;
      font-weight: 500;
      font-size: 16px;
      line-height: 1.19;
@@ -386,18 +381,19 @@ body {
      background: #F5F4FA;
 }
 /*regular customers*/
-.brand-logo{
+.brand-link{
      fill: var(--icon-color);
 
 }
-.circuit:hover .brand-logo ,
- .circuit:focus .brand-logo  {
-     
+.brand-link:hover ,
+.brand-link:focus  {
+
      fill: var(--accent-color);
 }
 .brand-link:hover,
 .brand-link:focus{
      border: 1px solid var(--accent-color);
+     
 }
 .clients-title{
      margin-left: auto;
@@ -506,10 +502,6 @@ body {
      color: var(--accent-color);
 }
 .footer-social-item{
-     display: flex;
-     justify-content: center;
-     font-family: 'Roboto', sans-serif;
-     font-style: normal;
      font-weight: 700;
      font-size: 14px;
      line-height: 1.14;
@@ -545,7 +537,7 @@ body {
      align-items: baseline;
 }
 .footer-social{
-     margin: 70px;
+     margin-left: 70px;
 }
 
 
@@ -570,7 +562,7 @@ body {
      border: transparent;
      border-radius: 4px;
      margin: auto;
-     padding: 10px 32px;
+     padding: 6px 22px;
      font-family: 'Roboto', sans-serif;
      font-style: normal;
      font-weight: 500;
@@ -623,7 +615,7 @@ body {
      margin: 15px;
      background: #FFFFFF;
 }
-.portfolio-link :hover, 
+.portfolio-link:hover, 
 .portfolio-link:focus{
      display: block;
      background: #ffffff;
