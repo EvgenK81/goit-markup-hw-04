@@ -122,8 +122,8 @@ body {
 .menu-link:focus {
      color: var(--accent-color);
 }
-.menu-mailto{
-margin-right: 50px;
+.menu-mailto {
+     margin-right: 50px;
 }
 
 .mailto {
@@ -137,6 +137,7 @@ margin-right: 50px;
      line-height: 1.14;
      letter-spacing: 0.02em;
      color: var(--secondari-color);
+     
 }
 
 
@@ -153,7 +154,9 @@ margin-right: 50px;
 fill: currentColor;
 margin-right: 10px;
 }
-
+.nav{
+     display: flex;
+}
 
 
 /*HERO*/
